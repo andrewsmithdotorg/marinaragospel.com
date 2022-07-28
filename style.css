@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant:300');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Assistant:300");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 body {
   background-color: #6e1010;
   min-height: 90vh;
@@ -7,20 +7,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0px 100px;
+  padding: 0px 200px;
 }
 #quotation {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-size: 8vmin;
   color: #c45404;
   line-height: 1.2;
   hanging-punctuation: first;
 }
-button { 
-  font-family: 'Assistant', sans-serif;
+
+button {
+  position: absolute;
+  bottom: 15%;
+  font-family: "Assistant", sans-serif;
   color: #9e3c3f;
   display: block;
-  padding: .5rem;
+  padding: 0.5rem;
   font-size: 2rem;
   background: #4a0707;
   border: 1px solid #4a0707;
