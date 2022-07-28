@@ -17,15 +17,40 @@ body {
   hanging-punctuation: first;
 }
 
-button {
+#bottom {
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
+}
+
+button {
   font-family: "Assistant", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
   color: #9e3c3f;
   display: block;
   padding: 0.5rem;
-  font-size: 2rem;
   background: #4a0707;
   border: 1px solid #4a0707;
   border-radius: 12px;
+  margin: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+a {
+  position: relative;
+  top: 40px;
+  font-family: "Assistant", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #d37f43;
+  text-decoration: none;
+  text-align: center;
 }
