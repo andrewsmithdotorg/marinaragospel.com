@@ -18,6 +18,8 @@ const quotes = [
   "Sometimes life gives you lemons, sometimes it gives you broken glass.",
 ];
 
+let lastNum = undefined;
+
 function randomNumber() {
   let number = Math.floor(Math.random() * quotes.length);
   return number;
@@ -25,7 +27,11 @@ function randomNumber() {
 
 function randomQuote() {
   let newRandomNumber = randomNumber();
+  while (newRandomNumber == lastNum) {
+    newRandomNumber = randomNumber();
+  }
   quotation.innerText = `"${quotes[newRandomNumber]}"`;
+  lastNum = newRandomNumber;
 }
 
 randomQuote();
