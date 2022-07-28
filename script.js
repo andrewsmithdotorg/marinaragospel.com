@@ -16,6 +16,9 @@ const quotes = [
   "You guys know that Frank Sinatra song where he sings about New Jersey?",
   "The most important thing for anybody on this earth to know about me is that I'm a hater.",
   "Sometimes life gives you lemons, sometimes it gives you broken glass.",
+  "There should be a time limit for leaf blowers. Anything you can get in 30 minutes is fair game and after that you're done and nature wins.",
+  "Machu Picchu was a shrine dedicated to the cheesy gordita crunch.",
+  "I think all coffee should be delivered by tactical drone strike.",
 ];
 
 let lastNum = undefined;
