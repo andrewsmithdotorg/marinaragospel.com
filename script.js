@@ -19,6 +19,8 @@ const quotes = [
   "There should be a time limit for leaf blowers. Anything you can get in 30 minutes is fair game and after that you're done and nature wins.",
   "Machu Picchu was a shrine dedicated to the cheesy gordita crunch.",
   "I think all coffee should be delivered by tactical drone strike.",
+  "Netflix adaptations are God's punishment for people who get invested in the plot of a video game.",
+  "Every loud guy in a bar calling some other dude's drink a dainty drink for women is someone whose family won't return their calls.",
 ];
 
 let lastNum = undefined;
